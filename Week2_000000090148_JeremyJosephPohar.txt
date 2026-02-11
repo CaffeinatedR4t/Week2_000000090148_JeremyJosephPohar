@@ -149,14 +149,14 @@ a remote GitHub repository:
    - Example format: https://github.com/yourusername/Week2_000000090148_JeremyJosephPohar
 
 ================================================================================
-REPOSITORY LINK (UPDATE THIS WITH YOUR GITHUB URL)
+REPOSITORY LINK
 ================================================================================
 
 GitHub Repository URL: 
-[PASTE YOUR REPOSITORY LINK HERE]
+https://github.com/CaffeinatedR4t/Week2_000000090148_JeremyJosephPohar
 
-Example format (replace with your actual link):
-https://github.com/jeremyjosephpohar/Week2_000000090148_JeremyJosephPohar
+Status: ✅ PUSHED TO GITHUB
+All files have been successfully committed and pushed to the remote repository.
 
 ================================================================================
 REQUIREMENTS CHECKLIST
