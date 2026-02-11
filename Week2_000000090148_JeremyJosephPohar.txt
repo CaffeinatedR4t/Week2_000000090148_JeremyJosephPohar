@@ -1,0 +1,198 @@
+================================================================================
+MODUL 2 - Intro to React Native
+Assignment Submission: Profile Page with Scrollable Friends List
+================================================================================
+
+Student Name: Jeremy Joseph Pohar
+Student ID (NIM): 000000090148
+Repository Name: Week2_000000090148_JeremyJosephPohar
+
+================================================================================
+PROJECT INFORMATION
+================================================================================
+
+This project is an Expo/React Native application that demonstrates fundamental
+concepts learned in IF670 Mobile Cross Platform Programming - Module 2.
+
+COMPONENTS USED:
+✓ View - Container component for layout
+✓ Text - Display text component  
+✓ Image - Image display component
+✓ ScrollView - Scrollable container for large content
+✓ StyleSheet - Native styling
+
+================================================================================
+HOW TO SET UP AND RUN
+================================================================================
+
+1. Navigate to the project directory:
+   cd Week2_000000090148_JeremyJosephPohar
+
+2. Install dependencies:
+   npm install
+   (or yarn install)
+
+3. Start the development server:
+   npm start
+
+4. Choose your platform:
+   - Press 'i' for iOS
+   - Press 'a' for Android
+   - Press 'w' for web
+   - Press 's' to switch file
+
+================================================================================
+PROJECT STRUCTURE
+================================================================================
+
+Week2_000000090148_JeremyJosephPohar/
+├── app/
+│   ├── (tabs)/
+│   │   ├── _layout.tsx       (Tab navigation configuration)
+│   │   ├── index.tsx         (Home tab)
+│   │   ├── explore.tsx       (Explore tab)
+│   │   └── profile.tsx       (New Profile page with scrollable friends list)
+│   ├── _layout.tsx
+│   └── modal.tsx
+├── components/               (Reusable UI components)
+├── constants/                (Theme constants)
+├── hooks/                    (Custom React hooks)
+├── assets/                   (Images and media)
+├── package.json
+├── app.json
+├── tsconfig.json
+└── .git/                     (Git repository)
+
+================================================================================
+FEATURES IMPLEMENTED
+================================================================================
+
+✓ Profile Page Component (app/(tabs)/profile.tsx)
+  - Displays user profile information (name, NIM, email, phone, university)
+  - Shows personal data section with detailed information
+  - Scrollable list of 6 friends with:
+    * Friend name
+    * NIM (Student ID)
+    * Role/Position
+    * Phone number
+    * Placeholder avatar image
+
+✓ Tab Navigation
+  - Added "Profile" tab to bottom tab navigation
+  - Uses "person.fill" icon for the profile tab
+  - Integrated with existing Home and Explore tabs
+
+✓ Responsive Design
+  - ScrollView for handling large content
+  - Proper spacing and padding
+  - Clean card-based design for friend list
+  - Support for light/dark theme
+
+================================================================================
+DATA USED
+================================================================================
+
+User Profile:
+- Name: Jeremy Joseph Pohar
+- NIM: 000000090148
+- Phone: +62-812-3456-7890
+- Email: jeremy.joseph@student.umn.ac.id
+- Major: S1 Informatika
+- University: Universitas Multimedia Nusantara
+
+Friends (Dummy Data):
+1. Ahmad Rizki (000000031421) - Frontend Developer
+2. Siti Nurhaliza (000000042156) - UI/UX Designer
+3. Budi Santoso (000000055789) - Backend Developer
+4. Rina Wijaya (000000061234) - QA Engineer
+5. Doni Hermawan (000000072567) - Data Analyst
+6. Citra Dewi (000000083890) - Mobile Developer
+
+================================================================================
+GIT COMMIT INFORMATION
+================================================================================
+
+Repository Name: Week2_000000090148_JeremyJosephPohar
+Initial Commit: "Initial commit: Add profile page with scrollable friends list"
+Commit Hash: a3fc1a1 (local)
+
+Files Modified/Created:
+- app/(tabs)/profile.tsx (NEW - Profile page component)
+- app/(tabs)/_layout.tsx (MODIFIED - Added profile tab)
+
+================================================================================
+INSTRUCTIONS FOR PUSHING TO REMOTE REPOSITORY
+================================================================================
+
+Since this is currently a LOCAL repository, follow these steps to push to
+a remote GitHub repository:
+
+1. Create a new repository on GitHub:
+   - Go to https://github.com/new
+   - Repository name: Week2_000000090148_JeremyJosephPohar
+   - Description: Mobile app with scrollable profile page - IF670 Assignment
+   - Make it Public (or Private)
+   - Do NOT initialize with README, .gitignore, or license
+   - Click "Create repository"
+
+2. Add remote and push from your local repository:
+   git remote add origin https://github.com/YOUR_USERNAME/Week2_000000090148_JeremyJosephPohar.git
+   git branch -M main
+   git push -u origin main
+
+3. Verify push was successful:
+   - Visit your GitHub repository URL
+   - You should see all project files
+
+4. Copy your repository link and update:
+   - Replace the placeholder below with your actual GitHub URL
+   - Example format: https://github.com/yourusername/Week2_000000090148_JeremyJosephPohar
+
+================================================================================
+REPOSITORY LINK (UPDATE THIS WITH YOUR GITHUB URL)
+================================================================================
+
+GitHub Repository URL: 
+[PASTE YOUR REPOSITORY LINK HERE]
+
+Example format (replace with your actual link):
+https://github.com/jeremyjosephpohar/Week2_000000090148_JeremyJosephPohar
+
+================================================================================
+REQUIREMENTS CHECKLIST
+================================================================================
+
+✓ Created scrollable profile page (ScrollView component)
+✓ Displayed personal user information
+✓ Created list of friends with data
+✓ Used React Native components (View, Text, Image, ScrollView)
+✓ Applied styling with StyleSheet
+✓ Set up Git repository locally
+✓ Committed project files
+✓ Created submission txt file
+✓ Ready to push to remote repository
+
+================================================================================
+NOTES
+================================================================================
+
+- Profile images use placeholder URLs from https://via.placeholder.com
+- The app uses Expo, which provides easy cross-platform development
+- Tab navigation colors match the application theme
+- All friend data is dummy data for demonstration purposes
+- The profile page is fully responsive and works on iOS, Android, and Web
+
+================================================================================
+SUBMISSION INFORMATION
+================================================================================
+
+To complete this assignment:
+
+1. Push this local repository to a remote repository (GitHub/GitLab)
+2. Update the "REPOSITORY LINK" section above with your actual repository URL
+3. Save this file as Week2_000000090148_JeremyJosephPohar.txt
+4. Submit this .txt file (or a .zip containing it) to elearning
+
+================================================================================
+END OF SUBMISSION
+================================================================================
